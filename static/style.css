@@ -1,0 +1,167 @@
+body {
+    /* Relatable travel background */
+    background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), 
+                url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+
+.dashboard-card {
+    background: var(--card-bg);
+    width: 100%;
+    max-width: 700px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+    
+    /* 1. Set a fallback color first */
+    color: #072b5a; 
+    
+    /* 2. Apply the gradient */
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    
+    /* 3. Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* 4. Make the fill transparent so the gradient shows through */
+    -webkit-text-fill-color: transparent;
+    
+    /* 5. Add a subtle text-shadow to prevent it from washing out against clouds */
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header p {
+    color: #000000;
+    font-size: 1.05rem;
+}
+
+/* Grid Layout for Form */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make full-width fields spans across both columns */
+.full-width {
+    grid-column: span 2;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+input, select {
+    background: #334155;
+    border: 1px solid #475569;
+    padding: 12px 16px;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(79, 172, 254, 0.15);
+}
+
+/* Prediction Button */
+
+.btn-predict {
+    grid-column: span 2;
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    color: #0f172a; /* Dark text for high contrast on the bright button */
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    /* Cyan glow that matches the "sky" vibe */
+    box-shadow: 0 4px 15px rgba(0, 242, 254, 0.3);
+}
+
+.btn-predict:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 242, 254, 0.5);
+    filter: brightness(1.1);
+}
+
+.btn-predict:active {
+    transform: translateY(0);
+}
+/* Result Section */
+.result-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px border solid rgba(16, 185, 129, 0.2);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.result-container h2 {
+    color: #10b981;
+    font-size: 1.5rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    .full-width {
+        grid-column: span 1;
+    }
+}
