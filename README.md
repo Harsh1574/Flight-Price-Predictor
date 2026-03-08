@@ -289,12 +289,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Harsh Sharma**
+**Harsvardhan Rajgarhia**
 
-- 🐱 GitHub: [@Harsh1574](https://github.com/Harsh1574)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4) *(Update this)*
-- 📧 Email: your.email@example.com *(Update this)*
+**CSBS'27, Academy Of Technology**
 
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harsvardhanrajgarhia@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Harsh1574)
 ---
 
 ## 🙏 Acknowledgments
