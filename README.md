@@ -292,7 +292,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Harsh Sharma**
 
 - 🐱 GitHub: [@Harsh1574](https://github.com/Harsh1574)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/Harshvardhan Rajgarhia) *(Update this)*
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](www.linkedin.com/in/harshvardhan-rajgarhia-ba62982a4) *(Update this)*
 - 📧 Email: your.email@example.com *(Update this)*
 
 ---
