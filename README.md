@@ -231,7 +231,7 @@ Estimated Flight Price: ₹8,547.32
 - 📊 **Encoding strategy matters**: One-hot encoding transformed categorical data into ML-ready format
 
 ### Machine Learning
-- 🎯 **Model selection**: Compared multiple algorithms (Linear Regression, SVR) for optimal performance
+- 🎯 **Model selection**: Compared multiple algorithms (Linear Regression, SVR, Ridge, Lasso, ElasticNet) for optimal performance
 - 📉 **Evaluation metrics**: Used MAE, RMSE, R² to assess model quality
 - 💾 **Model persistence**: Serialized trained model with pickle for production use
 
