@@ -5,8 +5,8 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# Load the trained Linear Regression model
-model = pickle.load(open('flight_price_linear_model.pkl', 'rb'))
+# Load the trained Lasso model
+model = pickle.load(open('flight_price_lasso_model.pkl', 'rb'))
 
 @app.route('/')
 def home():
